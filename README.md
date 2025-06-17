@@ -45,13 +45,21 @@ On macOS/Linux: source venv/bin/activate
 Visit the app at: http://127.0.0.1:5000/
 
 📂 Project Structure
+
 glaucoma-detection-cnn/
+
 │
+
 ├── app.py                   # Flask backend
+
 ├── model/                   # Trained CNN model (e.g., model.tfl)
+
 ├── static/uploads/          # Uploaded images folder
+
 ├── templates/               # HTML templates (index.html, result.html)
+
 ├── requirements.txt         # Dependencies list
+
 └── README.md                # Project documentation
 
 📊 Output
